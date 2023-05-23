@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "nuxt-capo-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "devDependencies": {
+    "nuxt": "3.5.1",
+    "nuxt-capo": "latest"
+  }
+}
