@@ -10,6 +10,9 @@
 - [✨ &nbsp;Changelog](https://github.com/danielroe/nuxt-capo/blob/main/CHANGELOG.md)
 - [▶️ &nbsp;Online playground](https://stackblitz.com/github/danielroe/nuxt-capo/tree/main/playground)
 
+## What is Capo.js
+[Capo.js](https://github.com/rviscomi/capo.js) is a small snippet that identifies ways to boost the (perceived) performance of your page, by changing the order of elements in the page's `<head>` section.
+
 ## Features
 
 - ✨ validates your `<head>` in dev mode and when prerendering pages
