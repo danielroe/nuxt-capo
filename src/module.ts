@@ -1,4 +1,4 @@
-import { defineNuxtModule, createResolver, addServerPlugin, useNuxt, addPlugin } from '@nuxt/kit'
+import { defineNuxtModule, createResolver, addServerPlugin } from '@nuxt/kit'
 
 export interface ModuleOptions {
   // client: boolean
@@ -6,7 +6,7 @@ export interface ModuleOptions {
 }
 
 export default defineNuxtModule<ModuleOptions>({
-  defaults: nuxt => ({
+  defaults: () => ({
     // client: nuxt.options.dev,
     server: true,
   }),
@@ -14,7 +14,7 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: 'capo',
     name: 'nuxt-capo',
   },
-  async setup(options) {
+  async setup (options) {
     const resolver = createResolver(import.meta.url)
     // if (options.client) {
     //   addPlugin(resolver.resolve('./runtime/plugins/capo.client'))
