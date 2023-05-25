@@ -6,16 +6,18 @@ import { useNuxt } from '@nuxt/kit'
 const logs: string[] = []
 
 Object.defineProperty(console, 'log', {
-  get () {
-    return (...args: string[]) => logs.push(
-      args.join(' ')
-        .replace(/\.[\d\w]+\.js/g, '.[hash].js')
-        // eslint-disable-next-line no-control-regex
-        .replace(/\u001b\[\d+m/g, '')
-    )
+  get() {
+    return (...args: string[]) =>
+      logs.push(
+        args
+          .join(' ')
+          .replace(/\.[\d\w]+\.js/g, '.[hash].js')
+          // eslint-disable-next-line no-control-regex
+          .replace(/\u001b\[\d+m/g, '')
+      )
   },
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  set () {}
+  set() {},
 })
 
 await setup({
@@ -23,12 +25,12 @@ await setup({
   build: true,
   nuxtConfig: {
     hooks: {
-      'modules:before' () {
+      'modules:before'() {
         const nuxt = useNuxt()
         nuxt.options.nitro.prerender = { routes: ['/'] }
-      }
-    }
-  }
+      },
+    },
+  },
 })
 
 describe('nuxt-capo', async () => {
