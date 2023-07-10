@@ -7,14 +7,14 @@ settings:
 overrides:
   nuxt-capo: link:.
   consola: ^3.0.0
-  '@nuxt/kit': ^3.5.1
+  '@nuxt/kit': 3.5.1
 
 importers:
 
   .:
     dependencies:
       '@nuxt/kit':
-        specifier: ^3.5.1
+        specifier: 3.5.1
         version: 3.5.1(rollup@3.23.0)
       colorette:
         specifier: ^2.0.20

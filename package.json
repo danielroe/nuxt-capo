@@ -78,7 +78,7 @@
   "resolutions": {
     "nuxt-capo": "link:.",
     "consola": "^3.0.0",
-    "@nuxt/kit": "^3.5.1"
+    "@nuxt/kit": "3.5.1"
   },
   "packageManager": "pnpm@8.6.6"
 }
