@@ -8,7 +8,7 @@ export default (nitroApp: NitroApp) => {
   }
 
   nitroApp.hooks.hook('render:response', (response, { event }) => {
-    if (!response.headers['content-type']?.startsWith('text/html')) {
+    if (!response.headers?.['content-type']?.startsWith('text/html')) {
       return
     }
     const dom = new JSDOM(response.body)
