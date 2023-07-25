@@ -72,8 +72,8 @@ importers:
         specifier: 3.6.5
         version: 3.6.5(@types/node@20.4.4)(eslint@8.45.0)(rollup@3.26.2)(typescript@5.1.6)
       nuxt-vitest:
-        specifier: 0.10.1
-        version: 0.10.1(@vitejs/plugin-vue-jsx@3.0.1)(@vitejs/plugin-vue@4.2.3)(jsdom@22.0.0)(rollup@3.26.2)(vite@4.4.6)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4)
+        specifier: 0.10.2
+        version: 0.10.2(@vitejs/plugin-vue-jsx@3.0.1)(@vitejs/plugin-vue@4.2.3)(jsdom@22.0.0)(rollup@3.26.2)(vite@4.4.6)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4)
       playwright:
         specifier: 1.36.1
         version: 1.36.1
@@ -5233,8 +5233,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /nuxt-vitest@0.10.1(@vitejs/plugin-vue-jsx@3.0.1)(@vitejs/plugin-vue@4.2.3)(jsdom@22.0.0)(rollup@3.26.2)(vite@4.4.6)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4):
-    resolution: {integrity: sha512-Lee+r2Cs1L9OgLjmGC51aggE5xnbspbEMmt7oYYVOyNHmSz5zAp+YHTGU42BdD1ueYXDZ8QKmknlR0cxj1vLBw==}
+  /nuxt-vitest@0.10.2(@vitejs/plugin-vue-jsx@3.0.1)(@vitejs/plugin-vue@4.2.3)(jsdom@22.0.0)(rollup@3.26.2)(vite@4.4.6)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4):
+    resolution: {integrity: sha512-cYEvFY5iU0fV3xccdunV1vAlgyda3Tf7HEyPGrI/4KMAouwtIDIyuu2SgU3WOFqpNbhbAQbI5COLISodOeUHBQ==}
     peerDependencies:
       '@vitejs/plugin-vue': '*'
       '@vitejs/plugin-vue-jsx': '*'
@@ -5251,7 +5251,7 @@ packages:
       std-env: 3.3.3
       vite: 4.4.6(@types/node@20.4.4)
       vitest: 0.33.0(jsdom@22.0.0)(playwright@1.36.1)
-      vitest-environment-nuxt: 0.10.1(jsdom@22.0.0)(rollup@3.26.2)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4)
+      vitest-environment-nuxt: 0.10.2(jsdom@22.0.0)(rollup@3.26.2)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4)
     transitivePeerDependencies:
       - happy-dom
       - jsdom
@@ -7332,10 +7332,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest-environment-nuxt@0.10.1(jsdom@22.0.0)(rollup@3.26.2)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4):
-    resolution: {integrity: sha512-VFRnK+eNC9OR0PtNtiq+MaNR3rN+TnB7N8YFjDXURHTsWhInGY2031becn3HBXs49yBikW6lji18TT8yDAKCJw==}
+  /vitest-environment-nuxt@0.10.2(jsdom@22.0.0)(rollup@3.26.2)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4):
+    resolution: {integrity: sha512-CgOS0KW0zhyDVvfHbq+CbkCa/sA2Ui/SMrp0W0vDgzhaUTCuo7WtJ211HwYqGhj3YvSRopOByRPkUDFQjr3wiw==}
     peerDependencies:
-      happy-dom: ^9.10.9
+      happy-dom: ^9.10.9 || ^10.0.0
       jsdom: ^22.0.0
       vitest: ^0.24.5 || ^0.26.0 || ^0.27.0 || ^0.28.0 || ^0.29.0 || ^0.30.0 || ^0.33.0
       vue: ^3.2.45
@@ -7353,12 +7353,12 @@ packages:
       h3: 1.7.1
       jsdom: 22.0.0
       magic-string: 0.30.1
-      node-fetch-native: 1.2.0
       ofetch: 1.1.1
       unenv: 1.5.2
       vitest: 0.33.0(jsdom@22.0.0)(playwright@1.36.1)
       vue: 3.3.4
       vue-router: 4.2.4(vue@3.3.4)
+      whatwg-fetch: 3.6.17
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -7549,6 +7549,10 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       iconv-lite: 0.6.3
+
+  /whatwg-fetch@3.6.17:
+    resolution: {integrity: sha512-c4ghIvG6th0eudYwKZY5keb81wtFz9/WeAHAoy8+r18kcWlitUIrmGFQ2rWEl4UCKUilD3zCLHOIPheHx5ypRQ==}
+    dev: true
 
   /whatwg-mimetype@3.0.0:
     resolution: {integrity: sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==}
