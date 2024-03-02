@@ -68,7 +68,7 @@
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
     "nuxt": "3.6.5",
-    "playwright": "1.37.1",
+    "playwright": "1.42.1",
     "prettier": "3.2.5",
     "typescript": "5.1.6",
     "vite": "4.4.11",
