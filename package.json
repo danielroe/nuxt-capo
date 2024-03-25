@@ -70,7 +70,7 @@
     "nuxt": "3.6.5",
     "playwright": "1.42.1",
     "prettier": "3.2.5",
-    "typescript": "5.1.6",
+    "typescript": "5.4.3",
     "vite": "4.4.11",
     "vitest": "1.0.4",
     "vitest-environment-nuxt": "1.0.0",
