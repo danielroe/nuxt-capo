@@ -23,10 +23,7 @@
 Install and add `nuxt-capo` to your `nuxt.config`.
 
 ```bash
-# Whichever matches your package manager
-pnpm add -D nuxt-capo
-npm install -D nuxt-capo
-yarn add -D nuxt-capo
+npx nuxi@latest module add capo
 ```
 
 ```js
