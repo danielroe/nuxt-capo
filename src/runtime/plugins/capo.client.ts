@@ -1,5 +1,5 @@
-import { defineNuxtPlugin, useRouter } from '#imports'
 import { logWeights } from '../utils/logger'
+import { defineNuxtPlugin, useRouter } from '#imports'
 
 export default defineNuxtPlugin(() => {
   useRouter().afterEach(() => {
