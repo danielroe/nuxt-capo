@@ -13,10 +13,10 @@ Object.defineProperty(console, 'log', {
           .join(' ')
           .replace(/\.[\d\w]+\.js/g, '.[hash].js')
           // eslint-disable-next-line no-control-regex
-          .replace(/\u001b\[\d+m/g, '')
+          .replace(/\u001B\[\d+m/g, ''),
       )
   },
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
+
   set() {},
 })
 

@@ -7,6 +7,6 @@
 <script setup>
 useSeoMeta({
   title: 'My page',
-  description: 'Here is a description.'
+  description: 'Here is a description.',
 })
 </script>

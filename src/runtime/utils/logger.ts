@@ -120,7 +120,7 @@ function getWeight(element: Element) {
 
 function getHeadWeights(document: Document) {
   const headChildren = Array.from(document.head.children)
-  return headChildren.map(element => {
+  return headChildren.map((element) => {
     return [element, getWeight(element)] as [Element, number]
   })
 }
@@ -145,12 +145,12 @@ export function logWeights(document: Document, path: string) {
   const sortedWeights = [...headWeights].sort((a, b) => {
     return b[1] - a[1]
   })
-  sortedWeights.forEach(([element, weight]) => {
+  sortedWeights.forEach(([element, _weight]) => {
     sortedHead.appendChild(element.cloneNode(true))
   })
 
-  const isOptimal =
-    document.head.outerHTML.replace(/\s+/g, '') === sortedHead.outerHTML.replace(/\s+/g, '')
+  const isOptimal
+    = document.head.outerHTML.replace(/\s+/g, '') === sortedHead.outerHTML.replace(/\s+/g, '')
 
   if (isOptimal) {
     console.log(`${greenBright('✓')} [capo] Optimal \`<head>\` order for \`${path}\`: ${actualViz}`)
@@ -158,17 +158,17 @@ export function logWeights(document: Document, path: string) {
   }
 
   console.groupCollapsed(
-    `${yellowBright('>')} [capo] actual \`<head>\` order for \`${path}\`: ${actualViz}`
+    `${yellowBright('>')} [capo] actual \`<head>\` order for \`${path}\`: ${actualViz}`,
   )
   console.log()
   headWeights.forEach(([element, weight]) => {
     console.log(
-      dim([visualizeWeight(weight), weight + 1, truncateSource(element.outerHTML)].join(' '))
+      dim([visualizeWeight(weight), weight + 1, truncateSource(element.outerHTML)].join(' ')),
     )
   })
   console.log()
   console.log(
-    `${yellowBright('>')} [capo] actual \`<head>\` element\n` + dim(document.head.outerHTML.trim())
+    `${yellowBright('>')} [capo] actual \`<head>\` element\n` + dim(document.head.outerHTML.trim()),
   )
   console.log()
   console.groupEnd()
@@ -177,17 +177,17 @@ export function logWeights(document: Document, path: string) {
   const sortedViz = visualizeWeights(sortedWeights.map(([_, weight]) => weight))
 
   console.groupCollapsed(
-    `${yellowBright('>')} [capo] sorted \`<head>\` order for \`${path}\`: ${sortedViz}`
+    `${yellowBright('>')} [capo] sorted \`<head>\` order for \`${path}\`: ${sortedViz}`,
   )
   console.log()
   sortedWeights.forEach(([element, weight]) => {
     console.log(
-      dim([visualizeWeight(weight), weight + 1, truncateSource(element.outerHTML)].join(' '))
+      dim([visualizeWeight(weight), weight + 1, truncateSource(element.outerHTML)].join(' ')),
     )
   })
   console.log()
   console.log(
-    `${yellowBright('>')} [capo] sorted \`<head>\` element\n` + dim(sortedHead.outerHTML.trim())
+    `${yellowBright('>')} [capo] sorted \`<head>\` element\n` + dim(sortedHead.outerHTML.trim()),
   )
   console.log()
   console.groupEnd()
