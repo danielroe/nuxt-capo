@@ -69,7 +69,7 @@
     "vite": "5.2.8",
     "vitest": "1.4.0",
     "vitest-environment-nuxt": "1.0.0",
-    "vue": "^3.4.21"
+    "vue": "3.4.21"
   },
   "resolutions": {
     "@nuxt/kit": "3.11.2",
