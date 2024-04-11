@@ -145,7 +145,7 @@ export function logWeights(document: Document, path: string) {
   const sortedWeights = [...headWeights].sort((a, b) => {
     return b[1] - a[1]
   })
-  sortedWeights.forEach(([element, weight]) => {
+  sortedWeights.forEach(([element, _weight]) => {
     sortedHead.appendChild(element.cloneNode(true))
   })
 
