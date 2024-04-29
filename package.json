@@ -3,7 +3,10 @@
   "version": "0.2.0",
   "license": "MIT",
   "description": "capo.js implementation for Nuxt 3",
-  "repository": "danielroe/nuxt-capo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielroe/nuxt-capo.git"
+  },
   "keywords": [
     "nuxt",
     "module",
