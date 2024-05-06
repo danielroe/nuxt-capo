@@ -69,7 +69,7 @@
     "nuxt": "3.11.2",
     "playwright": "1.43.1",
     "typescript": "5.4.5",
-    "vite": "5.2.8",
+    "vite": "5.2.11",
     "vitest": "1.4.0",
     "vitest-environment-nuxt": "1.0.0",
     "vue": "3.4.21"
