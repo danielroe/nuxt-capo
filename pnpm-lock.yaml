@@ -33,7 +33,7 @@ importers:
         version: 3.11.2(rollup@3.29.4)
       '@nuxt/test-utils':
         specifier: 3.12.0
-        version: 3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
+        version: 3.12.0(@vue/test-utils@2.4.6)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
       '@types/jsdom':
         specifier: 21.1.6
         version: 21.1.6
@@ -44,8 +44,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0(vitest@1.4.0)
       '@vue/test-utils':
-        specifier: 2.4.5
-        version: 2.4.5
+        specifier: 2.4.6
+        version: 2.4.6
       bumpp:
         specifier: 9.4.0
         version: 9.4.0
@@ -81,7 +81,7 @@ importers:
         version: 1.4.0(@types/node@20.12.11)(jsdom@24.0.0)
       vitest-environment-nuxt:
         specifier: 1.0.0
-        version: 1.0.0(@vue/test-utils@2.4.5)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
+        version: 1.0.0(@vue/test-utils@2.4.6)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
       vue:
         specifier: 3.4.21
         version: 3.4.21(typescript@5.4.5)
@@ -1251,7 +1251,7 @@ packages:
       agent-base: 7.1.1
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
-      lru-cache: 10.0.1
+      lru-cache: 10.2.0
       socks-proxy-agent: 8.0.3
     transitivePeerDependencies:
       - supports-color
@@ -1269,7 +1269,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@npmcli/promise-spawn': 7.0.1
-      lru-cache: 10.0.1
+      lru-cache: 10.2.0
       npm-pick-manifest: 9.0.0
       proc-log: 3.0.0
       promise-inflight: 1.0.1
@@ -1576,7 +1576,7 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils@3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
+  /@nuxt/test-utils@3.12.0(@vue/test-utils@2.4.6)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
     resolution: {integrity: sha512-Q3HP53TDIYeqHT65r31HZhK/gRwVBmchSdVj1tfiYECyqstckvsQ4Cyt/GX/XmD7cLdD3d5aHow8LaMfP+BSqQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
     peerDependencies:
@@ -1618,7 +1618,7 @@ packages:
     dependencies:
       '@nuxt/kit': 3.11.2(rollup@3.29.4)
       '@nuxt/schema': 3.11.2(rollup@3.29.4)
-      '@vue/test-utils': 2.4.5
+      '@vue/test-utils': 2.4.6
       c12: 1.10.0
       consola: 3.2.3
       defu: 6.1.4
@@ -1643,7 +1643,7 @@ packages:
       unplugin: 1.10.1
       vite: 5.2.11(@types/node@20.12.11)
       vitest: 1.4.0(@types/node@20.12.11)(jsdom@24.0.0)
-      vitest-environment-nuxt: 1.0.0(@vue/test-utils@2.4.5)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
+      vitest-environment-nuxt: 1.0.0(@vue/test-utils@2.4.6)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
       vue: 3.4.21(typescript@5.4.5)
       vue-router: 4.3.0(vue@3.4.21)
     transitivePeerDependencies:
@@ -3257,8 +3257,8 @@ packages:
     resolution: {integrity: sha512-PuJe7vDIi6VYSinuEbUIQgMIRZGgM8e4R+G+/dQTk0X1NEdvgvvgv7m+rfmDH1gZzyA1OjjoWskvHlfRNfQf3g==}
     dev: true
 
-  /@vue/test-utils@2.4.5:
-    resolution: {integrity: sha512-oo2u7vktOyKUked36R93NB7mg2B+N7Plr8lxp2JBGwr18ch6EggFjixSCdIVVLkT6Qr0z359Xvnafc9dcKyDUg==}
+  /@vue/test-utils@2.4.6:
+    resolution: {integrity: sha512-FMxEjOpYNYiFe0GkaHsnJPXFHxQ6m4t8vI/ElPGpMWxZKpmRvQ33OIrvRXemy6yha03RxhOlQuy+gZMC3CQSow==}
     dependencies:
       js-beautify: 1.14.11
       vue-component-type-helpers: 2.0.7
@@ -3755,7 +3755,7 @@ packages:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.3
       glob: 10.3.10
-      lru-cache: 10.0.1
+      lru-cache: 10.2.0
       minipass: 7.0.4
       minipass-collect: 2.0.1
       minipass-flush: 1.0.5
@@ -5252,7 +5252,7 @@ packages:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
       minimatch: 9.0.4
-      minipass: 5.0.0
+      minipass: 7.0.4
       path-scurry: 1.10.1
     dev: true
 
@@ -5414,7 +5414,7 @@ packages:
     resolution: {integrity: sha512-+K84LB1DYwMHoHSgaOY/Jfhw3ucPmSET5v98Ke/HdNSw4a0UktWzyW1mjhjpuxxTqOOsfWT/7iVshHmVZ4IpOA==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      lru-cache: 10.0.1
+      lru-cache: 10.2.0
     dev: true
 
   /html-encoding-sniffer@4.0.0:
@@ -6120,11 +6120,6 @@ packages:
     resolution: {integrity: sha512-zSMINGVYkdpYSOBmLi0D1Uo7JU9nVdQKrHxC8eYlV+9YKK9WePqAlL7lSlorG/U2Fw1w0hTBmaa/jrQ3UbPHtA==}
     dependencies:
       get-func-name: 2.0.2
-    dev: true
-
-  /lru-cache@10.0.1:
-    resolution: {integrity: sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==}
-    engines: {node: 14 || >=16.14}
     dev: true
 
   /lru-cache@10.2.0:
@@ -7172,8 +7167,8 @@ packages:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.0.1
-      minipass: 5.0.0
+      lru-cache: 10.2.0
+      minipass: 7.0.4
     dev: true
 
   /path-type@4.0.0:
@@ -9428,10 +9423,10 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest-environment-nuxt@1.0.0(@vue/test-utils@2.4.5)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
+  /vitest-environment-nuxt@1.0.0(@vue/test-utils@2.4.6)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
     resolution: {integrity: sha512-AWMO9h4HdbaFdPWZw34gALFI8gbBiOpvfbyeZwHIPfh4kWg/TwElYHvYMQ61WPUlCGaS5LebfHkaI0WPyb//Iw==}
     dependencies:
-      '@nuxt/test-utils': 3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
+      '@nuxt/test-utils': 3.12.0(@vue/test-utils@2.4.6)(h3@1.11.1)(jsdom@24.0.0)(rollup@3.29.4)(vite@5.2.11)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
