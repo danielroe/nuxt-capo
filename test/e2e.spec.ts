@@ -53,22 +53,22 @@ describe('nuxt-capo', async () => {
         "█ 11 <meta charset="utf-8">",
         "█ 11 <meta name="viewport" content="width=device-width, initial-scale=1">",
         "█ 10 <title>My page</title>",
-        "█ 1 <meta name="description" content="Here is a description.">",
         "█ 4 <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?test">",
         "█ 1 <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js">",
         "█ 2 <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.js">",
         "█ 2 <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js">",
+        "█ 1 <meta name="description" content="Here is a description.">",
         "█ 6 <script type="module" src="/_nuxt/entry.js" crossorigin=""></script>",
         "",
         "> [capo] actual \`<head>\` element
       <head><meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>My page</title>
-      <meta name="description" content="Here is a description.">
       <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?test">
       <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js">
       <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.js">
       <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js">
+      <meta name="description" content="Here is a description.">
       <script type="module" src="/_nuxt/entry.js" crossorigin=""></script></head>",
         "",
         "",
@@ -81,11 +81,11 @@ describe('nuxt-capo', async () => {
         "█ 4 <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?test">",
         "█ 2 <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.js">",
         "█ 2 <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js">",
-        "█ 1 <meta name="description" content="Here is a description.">",
         "█ 1 <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js">",
+        "█ 1 <meta name="description" content="Here is a description.">",
         "",
         "> [capo] sorted \`<head>\` element
-      <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>My page</title><script type="module" src="/_nuxt/entry.js" crossorigin=""></script><link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?test"><link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.js"><link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js"><meta name="description" content="Here is a description."><link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js"></head>",
+      <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>My page</title><script type="module" src="/_nuxt/entry.js" crossorigin=""></script><link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?test"><link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.js"><link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js"><link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js"><meta name="description" content="Here is a description."></head>",
         "",
       ]
     `)
