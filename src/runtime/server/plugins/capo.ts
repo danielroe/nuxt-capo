@@ -3,7 +3,7 @@ import type { NitroApp } from 'nitropack'
 import { logWeights } from '../../utils/logger'
 
 export default (nitroApp: NitroApp) => {
-  if (!import.meta.dev && !process.env.prerender) {
+  if (!import.meta.dev && !import.meta.prerender) {
     return
   }
 
