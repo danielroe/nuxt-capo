@@ -58,7 +58,7 @@
     "@nuxt/test-utils": "3.14.4",
     "@types/jsdom": "21.1.7",
     "@types/node": "22.9.0",
-    "@vitest/coverage-v8": "3.0.7",
+    "@vitest/coverage-v8": "3.0.8",
     "@vue/test-utils": "2.4.6",
     "bumpp": "10.0.3",
     "eslint": "9.21.0",
@@ -70,7 +70,7 @@
     "playwright": "1.48.2",
     "typescript": "5.6.3",
     "vite": "6.2.0",
-    "vitest": "3.0.7",
+    "vitest": "3.0.8",
     "vitest-environment-nuxt": "1.0.1",
     "vue": "3.5.12"
   },
