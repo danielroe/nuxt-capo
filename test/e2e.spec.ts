@@ -55,12 +55,10 @@ describe('nuxt-capo', async () => {
         "█ 10 <title>My page</title>",
         "█ 4 <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?test">",
         "█ 1 <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js">",
-        "█ 4 <link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/.../test.json">",
         "█ 2 <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.js">",
         "█ 2 <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js">",
         "█ 1 <meta name="description" content="Here is a description.">",
         "█ 6 <script type="module" src="/_nuxt/entry.js" crossorigin=""></script>",
-        "█ 4 <link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/.../test.json">",
         "",
         "> [capo] actual \`<head>\` element
       <head><meta charset="utf-8">
@@ -68,12 +66,10 @@ describe('nuxt-capo', async () => {
       <title>My page</title>
       <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?test">
       <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js">
-      <link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/test.json">
       <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.js">
       <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js">
       <meta name="description" content="Here is a description.">
-      <script type="module" src="/_nuxt/entry.js" crossorigin=""></script>
-      <link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/test.json"></head>",
+      <script type="module" src="/_nuxt/entry.js" crossorigin=""></script></head>",
         "",
         "",
         "> [capo] sorted \`<head>\` order for \`/\`: ██████████",
