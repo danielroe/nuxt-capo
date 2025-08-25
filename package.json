@@ -73,7 +73,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.1.5",
     "nuxt": "3.18.1",
-    "playwright": "1.54.2",
+    "playwright": "1.55.0",
     "typescript": "5.9.2",
     "vite": "7.1.2",
     "vitest": "3.2.4",
@@ -84,5 +84,5 @@
     "@nuxt/kit": "3.18.1",
     "nuxt-capo": "link:."
   },
-  "packageManager": "pnpm@10.14.0"
+  "packageManager": "pnpm@10.15.0"
 }
