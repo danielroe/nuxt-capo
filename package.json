@@ -84,5 +84,5 @@
     "@nuxt/kit": "3.19.3",
     "nuxt-capo": "link:."
   },
-  "packageManager": "pnpm@10.28.0"
+  "packageManager": "pnpm@10.28.1"
 }
