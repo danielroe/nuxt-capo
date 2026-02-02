@@ -55,7 +55,7 @@
   "dependencies": {
     "@nuxt/kit": "^3.13.2",
     "colorette": "^2.0.20",
-    "jsdom": "^27.0.0"
+    "jsdom": "^28.0.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "1.13.0",
