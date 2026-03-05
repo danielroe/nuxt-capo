@@ -61,9 +61,9 @@ Published under the [MIT License](./LICENCE).
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-capo?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-capo
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-capo?style=flat-square
+[npm-version-src]: https://npmx.dev/api/registry/badge/version/nuxt-capo
+[npm-version-href]: https://npmx.dev/package/nuxt-capo
+[npm-downloads-src]: https://npmx.dev/api/registry/badge/downloads/nuxt-capo
 [npm-downloads-href]: https://npm.chart.dev/nuxt-capo
 [github-actions-src]: https://img.shields.io/github/actions/workflow/status/danielroe/nuxt-capo/ci.yml?branch=main
 [github-actions-href]: https://github.com/danielroe/nuxt-capo/actions?query=workflow%3Aci
