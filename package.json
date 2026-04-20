@@ -74,7 +74,7 @@
     "lint-staged": "16.4.0",
     "nuxt": "3.19.3",
     "playwright": "1.59.1",
-    "typescript": "6.0.2",
+    "typescript": "6.0.3",
     "vite": "8.0.8",
     "vitest": "4.1.4",
     "vitest-environment-nuxt": "2.0.0",
