@@ -80,9 +80,5 @@
     "vitest-environment-nuxt": "2.0.0",
     "vue": "3.5.22"
   },
-  "resolutions": {
-    "@nuxt/kit": "3.19.3",
-    "nuxt-capo": "link:."
-  },
   "packageManager": "pnpm@10.33.0"
 }
