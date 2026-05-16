@@ -1,7 +1,15 @@
 packages:
   - "playground"
 
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  unrs-resolver: false
 
 overrides:
   "@nuxt/kit": "3.19.3"
   nuxt-capo: "link:."
+
+shamefullyHoist: true
+
+strictPeerDependencies: false
