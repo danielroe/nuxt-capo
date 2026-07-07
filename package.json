@@ -80,5 +80,5 @@
     "vitest-environment-nuxt": "2.0.0",
     "vue": "3.5.22"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@11.10.0"
 }
