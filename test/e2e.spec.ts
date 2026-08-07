@@ -60,14 +60,7 @@ describe('nuxt-capo', async () => {
         "█ 1 <meta name="description" content="Here is a description.">",
         "",
         "> [capo] actual \`<head>\` element
-      <head><meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>My page</title>
-      <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?_b=test">
-      <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js">
-      <script type="module" src="/_nuxt/entry.js" crossorigin=""></script>
-      <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js">
-      <meta name="description" content="Here is a description."></head>",
+      <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>My page</title><link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?_b=test"><link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.js"><script type="module" src="/_nuxt/entry.js" crossorigin=""></script><link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.js"><meta name="description" content="Here is a description."></head>",
         "",
         "",
         "> [capo] sorted \`<head>\` order for \`/\`: ████████",
