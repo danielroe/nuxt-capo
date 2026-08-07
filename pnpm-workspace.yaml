@@ -7,7 +7,7 @@ allowBuilds:
   unrs-resolver: false
 
 overrides:
-  "@nuxt/kit": "3.19.3"
+  "@nuxt/kit": "3.21.11"
   nuxt-capo: "link:."
 
 shamefullyHoist: true
