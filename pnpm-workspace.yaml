@@ -8,7 +8,7 @@ allowBuilds:
 
 overrides:
   "@nuxt/kit": "3.21.11"
-  nuxt-capo: "link:."
+  nuxt-capo: "workspace:*"
 
 shamefullyHoist: true
 
